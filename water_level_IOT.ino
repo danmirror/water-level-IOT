@@ -27,7 +27,7 @@ LiquidCrystal_I2C lcd(0x3F, 16, 2);
 #define echoPin D6 //Echo Pin
 #define trigPin D5 //Trigger Pin
 
-#define relay 5
+#define relay 16
 
 long duration, distance; //waktu untuk kalkulasi jarak
 float jarak;
